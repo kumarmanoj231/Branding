@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+     .site-btn{
+        @apply  border border-[#AF7452] text-[#AF7452] pt-2 pb-2 pl-5 pr-5 hover:bg-[#AF7452] hover:text-[#FBF7EE]
+       
+    }
+    .card{
+        @apply border border-[#AF7452] rounded-2xl p-10 ml-5
+        bg-yellow-50  
+       
+    
+    }
+}
